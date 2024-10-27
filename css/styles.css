@@ -615,7 +615,7 @@ fill: #4d5ae5;
         margin-bottom: 4px;
 }
 .modal-field{
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 .modal-icon{
 position:absolute;
@@ -670,7 +670,6 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 width:16px;
 height: 16px;
 margin-right: 8px;
-display: flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
