@@ -517,9 +517,9 @@ margin-left:auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity:0;
+    /* opacity:0;
     visibility: hidden;
-    pointer-events: none;
+    pointer-events: none; */
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .is-open{
@@ -662,6 +662,7 @@ letter-spacing: 0.04em;
         align-items: center;
         display: inline-flex;
         line-height: 1.17;
+        margin-left: 8px;
 }
 
 .modal-check-text span{
@@ -674,10 +675,9 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
+margin-right: 8px;
 }
-.modal-checkbox-span{
-    display: inline-flex;
-}
+
 .modal-check-policy{
     color:#4d5ae5;
 }
